@@ -1,4 +1,20 @@
-//#region Enchanting+
+//#region Enchanting+ and books
+recipes.remove(<minecraft:book>);
+recipes.remove(<minecraft:bookshelf>);
+
+
+recipes.addShaped(<minecraft:book>,
+[[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>],
+[<minecraft:paper>, <minecraft:paper>, <minecraft:leather>],
+[<minecraft:paper>, <minecraft:leather>, null]]);
+
+
+recipes.addShaped(<minecraft:bookshelf>,
+[[<minecraft:book>, <minecraft:book>, <minecraft:book>],
+[<minecraft:book>, <minecraft:chest>, <minecraft:book>],
+[<minecraft:book>, <minecraft:book>, <minecraft:book>]]);
+
+
 recipes.remove(<eplus:decorative_book>);
 recipes.remove(<eplus:decorative_book:1>);
 recipes.remove(<eplus:decorative_book:2>);
@@ -301,6 +317,14 @@ recipes.addShaped(<ic2:bronze_boots>,
 
 //#endregion
 
+//#region XP Tome
+recipes.remove(<xpbook:xp_book>);
+recipes.remove(<xpbook:xp_book:1395>);
+recipes.addShapeless(<xpbook:xp_book:1395>,
+[<minecraft:book>, <minecraft:chest>]);
+
+//#endregion
+
 //#region Minecraft
 
 //#region Other
@@ -328,14 +352,6 @@ recipes.remove(<ic2:resource:7>);
 recipes.remove(<ic2:resource:8>);
 recipes.remove(<ic2:resource:9>);
 recipes.remove(<ic2:resource:15>);
-
-//#endregion
-
-//#region XP Tome
-recipes.remove(<xpbook:xp_book>);
-recipes.remove(<xpbook:xp_book:1395>);
-recipes.addShapeless(<xpbook:xp_book:1395>,
-[<minecraft:ender_pearl>, <minecraft:book>]);
 
 //#endregion
 
