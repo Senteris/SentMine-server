@@ -215,8 +215,8 @@ furnace.addRecipe(<refinedstorage:quartz_enriched_iron> * 8, <refinedstorage:qua
 //#region Minecraft armor
 //#region Add craft of chainmail  armor
 recipes.addShaped(<minecraft:chainmail_helmet>,
-[[<minecraft:iron_nugget>, <minecraft:iron_block>, <minecraft:iron_nugget>],
-[<minecraft:iron_nugget>, null, <minecraft:iron_nugget>],
+[[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
+[<minecraft:iron_ingot>, null, <minecraft:iron_ingot>],
 [null, null, null]]);
 
 recipes.addShaped(<minecraft:chainmail_chestplate>,
@@ -238,9 +238,9 @@ recipes.addShaped(<minecraft:chainmail_boots>,
 //#region Iron armor
 recipes.remove(<minecraft:iron_helmet>);
 recipes.addShaped(<minecraft:iron_helmet>,
-[[<minecraft:iron_ingot>, <minecraft:iron_block>, <minecraft:iron_ingot>],
+[[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
 [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>],
-[null, null, null]]);
+[<minecraft:iron_ingot>, null, <minecraft:iron_ingot>]]);
 
 recipes.remove(<minecraft:iron_chestplate>);
 recipes.addShaped(<minecraft:iron_chestplate>,
@@ -264,21 +264,21 @@ recipes.addShaped(<minecraft:iron_boots>,
 //#region Diamond armor
 recipes.remove(<minecraft:diamond_helmet>);
 recipes.addShaped(<minecraft:diamond_helmet>,
-[[<minecraft:diamond>, <minecraft:diamond_block>, <minecraft:diamond>],
-[<minecraft:diamond>, null, <minecraft:diamond>],
-[null, null, null]]);
+[[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>],
+[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>],
+[<minecraft:diamond>, null, <minecraft:diamond>]]);
 
 recipes.remove(<minecraft:diamond_chestplate>);
 recipes.addShaped(<minecraft:diamond_chestplate>,
 [[<minecraft:diamond>, null, <minecraft:diamond>],
 [<minecraft:diamond>, <minecraft:diamond_block>, <minecraft:diamond>],
-[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]]);
+[null, <minecraft:diamond>, null]]);
 
 recipes.remove(<minecraft:diamond_leggings>);
 recipes.addShaped(<minecraft:diamond_leggings>,
 [[<minecraft:diamond>, <minecraft:diamond_block>, <minecraft:diamond>],
 [<minecraft:diamond>, null, <minecraft:diamond>],
-[<minecraft:diamond>, null, <minecraft:diamond>]]);
+[null, null, null]]);
 
 recipes.remove(<minecraft:diamond_boots>);
 recipes.addShaped(<minecraft:diamond_boots>,
@@ -291,15 +291,15 @@ recipes.addShaped(<minecraft:diamond_boots>,
 //#region bronze
 recipes.remove(<ic2:bronze_helmet>);
 recipes.addShaped(<ic2:bronze_helmet>,
-[[<ic2:ingot:1>, <ic2:resource:5>, <ic2:ingot:1>],
+[[<ic2:ingot:1>, <ic2:ingot:1>, <ic2:ingot:1>],
 [<ic2:ingot:1>, null, <ic2:ingot:1>],
-[null, null, null]]);
+[<ic2:ingot:1>, null, <ic2:ingot:1>]]);
 
 recipes.remove(<ic2:bronze_chestplate>);
 recipes.addShaped(<ic2:bronze_chestplate>,
 [[<ic2:ingot:1>, null, <ic2:ingot:1>],
 [<ic2:ingot:1>, <ic2:resource:5>, <ic2:ingot:1>],
-[<ic2:ingot:1>, <ic2:ingot:1>, <ic2:ingot:1>]]);
+[null, <ic2:ingot:1>, null]]);
 
 recipes.remove(<ic2:bronze_leggings>);
 recipes.addShaped(<ic2:bronze_leggings>,
@@ -329,14 +329,14 @@ recipes.addShapeless(<xpbook:xp_book:1395>,
 
 //#region Other
 recipes.addShaped(<minecraft:leather> * 3,
-[[<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>],
+[[<minecraft:rotten_flesh>, <minecraft:leaves>, <minecraft:rotten_flesh>],
 [<minecraft:rotten_flesh>, <minecraft:leaves>, <minecraft:rotten_flesh>],
-[<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>]]);
+[<minecraft:rotten_flesh>, <minecraft:leaves>, <minecraft:rotten_flesh>]]);
 
 recipes.addShaped(<minecraft:leather> * 3,
-[[<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>],
+[[<minecraft:rotten_flesh>, <minecraft:leaves:2>, <minecraft:rotten_flesh>],
 [<minecraft:rotten_flesh>, <minecraft:leaves:2>, <minecraft:rotten_flesh>],
-[<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>]]);
+[<minecraft:rotten_flesh>, <minecraft:leaves:2>, <minecraft:rotten_flesh>]]);
 
 //#endregion
 
