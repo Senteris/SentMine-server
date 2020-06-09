@@ -187,12 +187,17 @@ recipes.addShaped(<improvedbackpacks:upgrade:2>,
 [<minecraft:iron_ingot>, <minecraft:iron_block>, <minecraft:iron_ingot>]]);
 
 recipes.addShaped(<improvedbackpacks:upgrade:3>,
-[[<minecraft:gold_ingot>, <minecraft:gold_block>, <minecraft:gold_ingot>],
+[[<minecraft:gold_ingot>, <minecraft:iron_block>, <minecraft:gold_ingot>],
 [<minecraft:gold_block>, <improvedbackpacks:blank_upgrade>, <minecraft:gold_block>],
-[<minecraft:gold_ingot>, <minecraft:gold_block>, <minecraft:gold_ingot>]]);
+[<minecraft:gold_ingot>, <minecraft:emerald_block>, <minecraft:gold_ingot>]]);
+
+recipes.addShaped(<improvedbackpacks:upgrade:3>,
+[[<minecraft:gold_ingot>, <minecraft:emerald_block>, <minecraft:gold_ingot>],
+[<minecraft:gold_ingot>, <improvedbackpacks:blank_upgrade:3>, <minecraft:gold_ingot>],
+[<minecraft:iron_block>, <minecraft:gold_block>, <minecraft:iron_block>]]);
 
 recipes.addShaped(<improvedbackpacks:upgrade:4>,
-[[<minecraft:diamond_block>, <minecraft:diamond_block>, <minecraft:diamond_block>],
+[[<minecraft:diamond_block>, <minecraft:gold_block>, <minecraft:diamond_block>],
 [<minecraft:diamond_block>, <improvedbackpacks:upgrade:3>, <minecraft:diamond_block>],
 [<minecraft:diamond_block>, <minecraft:diamond_block>, <minecraft:diamond_block>]]);
 
