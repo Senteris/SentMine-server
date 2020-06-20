@@ -207,12 +207,15 @@ recipes.addShaped(<improvedbackpacks:upgrade:4>,
 recipes.remove(<refinedstorage:quartz_enriched_iron>);
 recipes.remove(<refinedstorage:quartz_enriched_iron_block>);
 
-recipes.addShaped(<refinedstorage:quartz_enriched_iron_block>,
-[[null, <minecraft:iron_block>, null],
-[<minecraft:quartz_block>, <minecraft:quartz_block>, <minecraft:quartz_block>],
-[null, <minecraft:iron_block>, null]]);
+recipes.addShaped(<refinedstorage:quartz_enriched_iron_block> * 3,
+[[<minecraft:quartz_block>, <minecraft:iron_block>, <minecraft:quartz_block>],
+[<minecraft:quartz_block>, <minecraft:iron_block>, <minecraft:quartz_block>],
+[<minecraft:quartz_block>, <minecraft:iron_block>, <minecraft:quartz_block>]]);
 
-furnace.addRecipe(<refinedstorage:quartz_enriched_iron> * 8, <refinedstorage:quartz_enriched_iron_block>, 1);
+recipes.addShapeless(<refinedstorage:quartz_enriched_iron_block>,
+[<minecraft:quartz_block>, <minecraft:iron_block>, <minecraft:quartz_block>, <minecraft:iron_ingot>]);
+
+furnace.addRecipe(<refinedstorage:quartz_enriched_iron> * 5, <refinedstorage:quartz_enriched_iron_block>, 1);
 
 //#endregion
 
