@@ -361,3 +361,40 @@ recipes.remove(<ic2:resource:15>);
 //#endregion
 
 //#endregion
+
+//#region FixCraft
+//#region ic2:heat_storage
+recipes.remove(<ic2:heat_storage>);
+
+recipes.addShaped(<ic2:heat_storage>,
+[[null, <ic2:plate:8>, null],
+[<ic2:plate:8>, <advancedrocketry:pressuretank>, <ic2:plate:8>],
+[null, <ic2:plate:8>, null]]);
+recipes.addShaped(<ic2:heat_storage>,
+[[null, <ic2:plate:8>, null],
+[<ic2:plate:8>, <advancedrocketry:bucketenrichedlava>, <ic2:plate:8>],
+[null, <ic2:plate:8>, null]]);
+recipes.addShaped(<ic2:heat_storage>,
+[[null, <ic2:plate:8>, null],
+[<ic2:plate:8>, <advancedrocketry:buckethydrogen>, <ic2:plate:8>],
+[null, <ic2:plate:8>, null]]);
+recipes.addShaped(<ic2:heat_storage>,
+[[null, <ic2:plate:8>, null],
+[<ic2:plate:8>, <advancedrocketry:bucketnitrogen>, <ic2:plate:8>],
+[null, <ic2:plate:8>, null]]);
+recipes.addShaped(<ic2:heat_storage>,
+[[null, <ic2:plate:8>, null],
+[<ic2:plate:8>, <advancedrocketry:bucketoxygen>, <ic2:plate:8>],
+[null, <ic2:plate:8>, null]]);
+recipes.addShaped(<ic2:heat_storage>,
+[[null, <ic2:plate:8>, null],
+[<ic2:plate:8>, <ic2:fluid_cell>, <ic2:plate:8>],
+[null, <ic2:plate:8>, null]]);
+recipes.addShaped(<ic2:heat_storage>,
+[[null, <ic2:plate:8>, null],
+[<ic2:plate:8>, <forge:bucketfilled>, <ic2:plate:8>],
+[null, <ic2:plate:8>, null]]);
+
+//endregion
+
+//#endregion
