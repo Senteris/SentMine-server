@@ -105,6 +105,10 @@ recipes.addShaped(<ic2:jetpack:27>,
 [<ic2:plate:12>, <ic2:fluid_cell>, <ic2:plate:12>],
 [<minecraft:gold_block>, <minecraft:redstone_block>, <minecraft:gold_block>]]);
 
+recipes.remove(<ic2:crafting:24>);
+recipes.addShaped(<ic2:crafting:24>,
+[[<ic2:crafting:23>, <ic2:crafting:23>],
+[<ic2:crafting:23>, <ic2:crafting:23>]]);
 //#endregion
 
 //#region TC
@@ -193,7 +197,7 @@ recipes.addShaped(<improvedbackpacks:upgrade:3>,
 
 recipes.addShaped(<improvedbackpacks:upgrade:3>,
 [[<minecraft:gold_ingot>, <minecraft:emerald>, <minecraft:gold_ingot>],
-[<minecraft:gold_ingot>, <improvedbackpacks:blank_upgrade:3>, <minecraft:gold_ingot>],
+[<minecraft:gold_ingot>, <improvedbackpacks:blank_upgrade:2>, <minecraft:gold_ingot>],
 [<minecraft:iron_block>, <minecraft:gold_block>, <minecraft:iron_block>]]);
 
 recipes.addShaped(<improvedbackpacks:upgrade:4>,
